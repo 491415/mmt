@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html" charset="utf-8" />
+    <link type="text/css" rel="stylesheet" href="resources/styles/style.css" />
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+
+    <title>
+        Dobro došli na našu webstranicu
+    </title>
+
+    <script src="resources/jquery-3.4.1.min.js"></script>
+
+</head>
+
+<body>
+    <div id="header" align="center">
+        Željena djelatnost
+    </div>
+    <div id="middle">
+        <img id="prva" class="js_img-one js_img" src="resources/images/rsz_img-20160117-wa0001.jpg" />
+        <img id="druga" class="js_img-two js_img" src="resources/images/rsz_20160407_112724.jpg" />
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p id="ime1"><a href="D1.html">Dino Kralj</a>
+        </p>
+        <p id="ime2"><a href="F1.html">Antonio Fržić</a></p>
+    </div>
+    <div id="footer">
+        <p id="F1">
+            Ova stranica je napravljena za vrijeme pohađanja <a href="https://www.ferit.unios.hr/" target="_blank">ETF-a (FERIT-a)</a> u Osijeku u sklopu kolegija <a href="https://www.ferit.unios.hr/studiji/strucni-studij/SR601/7" target="_blank">Multimedijska tehnika</a>. © 2016 ETFOS (FERIT)
+        </p>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $(".js_img-one").on("click", function() {
+                $(".js_img-one").toggleClass("img-full");
+            });
+            $(".js_img-two").on("click", function() {
+                $(".js_img-two").toggleClass("img-full");;
+            });
+        });
+    </script>
+</body>
+
+</html>
